@@ -1,0 +1,7 @@
+# Pegue os catetos e calcule a hipotenusa (módulo sqrt)
+
+from math import sqrt
+b = float(input('Digite um cateto: '))
+c = float(input('Digite outro cateto: '))
+a = sqrt((b**2)+(c**2))
+print('A hipotenusa do triângulo é:',a)
